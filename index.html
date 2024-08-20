@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWT Solution & Services</title>
-   <link href="https://fonts.googleapis.com/css?family=Wix+Madefor+Display:regular,500,600,700,800" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Wix+Madefor+Display:regular,500,600,700,800" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -13,7 +14,7 @@
     <header>
     <div class="header-content">
         <div class="logo">
-            <img src="/images/twt-logo.jpg" alt="" height="60">
+            <img src="/assets/twt-logo.jpg" alt="" height="100%">
         </div>
         <div class="menu">
             <div class="bar bar1"></div>
@@ -21,23 +22,78 @@
             <div class="bar bar3"></div>
         </div>
         <nav>
-            <a href=".home">Home</a>
-            <a href=".products">Products</a>
-            <a href=".servives">Services</a>
-            <a href=".contactus">Contact Us</a>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#contactus">Contact Us</a>
         </nav>
     </div>
     </header>
-    <div class="hero">
-    <img src="/images/cctv-gif.gif" alt="" class="absolute">
+    <div class="hero" id="home">
+    <img src="/assets/cctv-gif.gif" alt="" class="absolute">
         <div class="hero-text">
-            <h1>TWT Computer Solution & Services</h1>
-            <h4>We Sale Tech Products</h4>
-            <h5>Founder - Avinash Lohakare</h5>
+            <h1 class="company-name">TWT Computer Solution & Services</h1>
+            <h3>Founder - Avinash Lohakare</h3>
         </div>
         <div class="hero-img">
-            <img src="/images/modern-desktop.png" alt="">
+            <img src="/assets/hero-illustration.png" alt="">
         </div>
+    </div>
+    <div class="product" id="products">
+        <h1 class="heading">Products</h1>
+        <div class="right">
+            <img src="/images/products/wall-security-camera.png" alt="" height="250">
+            <h3 class="title">CCTV Cameras</h3>
+            <p>We Provide HD quality Camera in affordable price & We Have Home CCTV,Bullet CCTV & also Industrial Big Size CCTV</p>
+        </div>
+        <div class="left">
+            <img src="/images/products/computer-laptop.png" alt="" height="300">
+            <h3 class="title">Computer/Laptops Rent and Sell</h3>
+            <p>We also Provide New and Refurbished Laptop and Computer in a affordable price.</p>
+        </div>
+        <div class="right">
+            <img src="/images/products/fingerprint-biometric.png" alt="" height="250">
+            <h3 class="title">Biometric</h3>
+            <p>Fingerprint Biometric Machine for industries , Schools and Colleges</p>
+        </div>
+        <div class="left">
+            <img src="/images/products/smoke-alarm-isolated-white.png" alt="" height="300">
+            <h3 class="title">Smoke/Fire Alarm System</h3>
+            <p>To Protect your appartment, Home and rooms from any fire incidents use Fire Alarms</p>
+        </div>
+    <div class="right" style="margin-bottom:80px;">
+        <div img id="img">
+            <img src="/images/products/printer.png" alt="" height="200">
+            <img src="/images/products/powerbank.png" alt="" height="100">
+            <img src="/images/products/flash-drive.png" alt="" height="100">    
+            <img src="/images/products/flat-design-hard-drive-illustration.png" alt="" height="100">
+        </div>
+            <h3 class="title">Other Electronics</h3>
+            <p>Essential electronics products : Printers,HardDisk,RAM,Pendrives,Powerbank etc.</p>
+        </div>
+    </div>
+    <div class="service" id="services">
+        <h1 class="heading">Services</h1>
+        <div class="right">
+                <img src="/images/services/cctv-installation-2.png" alt="" height="240" width="440">
+                <h3 class="title">CCTV Installation</h3> 
+                <p>CCTV Installation in Mines,Companies,Events,Programs and Homes . We Installed 100s of CCTVs in EXPO Events 2023 of Nagpur</p>
+        </div>
+        <div class="left">
+                <img src="/images/services/Laptop-sales-and-service.jpg" alt="" height="350">
+                <h3 class="title">Computers/Laptops Servicing</h3> 
+                <p>CCTV Installation in Mines,Companies,Events,Programs and Homes . We Installed 100s of CCTVs in EXPO Events 2023 of Nagpur</p>
+        </div>
+        <div class="right">
+            <img src="/images/services/networking.jpg" alt="" height="350" width="400">
+            <h3 class="title">Networking Server Installation</h3> 
+            <p>Installation of Servers and maintaining the networking of your comapany so that your devices is interconnect with other</p>
+        </div>
+        <div class="left">
+            <img src="/images/services/confersing.png" alt="" height="300">
+            <h3 class="title">Video Conferencing</h3> 
+            <p>Video conferencing that allows you to communicate in real time over the internet using audio and video and organise a virtual meeting</p>
+    </div>
     </div>
 </main>
 </body>
